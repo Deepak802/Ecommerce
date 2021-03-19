@@ -33,4 +33,4 @@ Hello friends, This is our first full e-commerce project with Python-Flask.
 (iv) Manage all Users <br>
 
 ## Conclusion
-##There are also many more feature which are not in the list. Feel free to use this project
+ping us to get source code 
