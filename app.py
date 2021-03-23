@@ -24,7 +24,7 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = ''
 app.config['MYSQL_DB'] = 'shoptubedb'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
-
+# want to change heare
 # Initialize the app for use with this MySQL class
 mysql.init_app(app)
 
