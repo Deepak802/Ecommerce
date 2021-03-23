@@ -21,7 +21,7 @@ configure_uploads(app, photos)
 mysql = MySQL()
 app.config['MYSQL_HOST'] = '127.0.0.2'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_PASSWORD'] = 'hi'
 app.config['MYSQL_DB'] = 'shoptubedb'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
