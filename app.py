@@ -28,10 +28,10 @@ app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 # Initialize the app for use with this MySQL class
 mysql.init_app(app)
 
-# @app.before_request
-# def make_session_permanent():
-#     session.permanent = True
-#     app.permanent_session_lifetime = timedelta(seconds=10)
+@app.before_request
+def make_session_permanent():
+    session.permanent = True
+    app.permanent_session_lifetime = timedelta(seconds=10)
 
 
 def is_logged_in(f):
